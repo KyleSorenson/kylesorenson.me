@@ -7,42 +7,44 @@ html {
   font-size: 10px; }
 
 body {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 1.6rem;
   text-transform: uppercase;
   padding: 5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
   color: black; }
 
-a, a:link, a:hover {
-  text-decoration: none;
-  color: black; }
-
 .main-header {
-  text-align: center; }
+  padding: .5rem; }
   .main-header__title {
     font-size: 5rem;
+    font-weight: 800;
     letter-spacing: 2rem; }
   .main-header__subtitle {
     font-size: 3rem;
-    letter-spacing: 2rem;
-    margin-top: 3rem; }
+    font-weight: 100;
+    letter-spacing: 1rem;
+    margin-top: 1rem; }
 
-.nav {
-  margin-top: 5rem;
-  list-style: none;
-  text-align: center;
+.main-body {
+  margin-top: 6rem;
   font-size: 2rem;
   letter-spacing: 1rem; }
-  .nav__item {
-    padding: 1rem; }
+
+.nav {
+  list-style: none; }
   .nav__link {
     display: block;
-    transition: all .5s; }
-  .nav__link:hover {
-    background: black;
+    width: 30rem;
+    padding: .5rem 1rem;
+    background-color: black;
     color: white;
-    transform: scale(1.1, 1.1); }
+    text-decoration: none;
+    transform-origin: left;
+    transition: transform 1s, background-color .5s; }
+    .nav__link:hover {
+      transform: translateX(1rem);
+      background-color: white;
+      color: black; }
+      .nav__link:hover::before {
+        content: ">"; }
