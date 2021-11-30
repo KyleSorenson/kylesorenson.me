@@ -1,0 +1,48 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black; }
+
+a, a:link, a:hover {
+  text-decoration: none;
+  color: black; }
+
+.main-header {
+  text-align: center; }
+  .main-header__title {
+    font-size: 5rem;
+    letter-spacing: 2rem; }
+  .main-header__subtitle {
+    font-size: 3rem;
+    letter-spacing: 2rem;
+    margin-top: 3rem; }
+
+.nav {
+  margin-top: 5rem;
+  list-style: none;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 1rem; }
+  .nav__item {
+    padding: 1rem; }
+  .nav__link {
+    display: block;
+    transition: all .5s; }
+  .nav__link:hover {
+    background: black;
+    color: white;
+    transform: scale(1.1, 1.1); }

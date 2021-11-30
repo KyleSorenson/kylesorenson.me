@@ -1,0 +1,22 @@
+{
+  "name": "kylesorenson.me",
+  "version": "1.0.0",
+  "description": "personal portfolio (portal site)",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/styles.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleSorenson/kylesorenson.me.git"
+  },
+  "author": "Kyle Sorenson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KyleSorenson/kylesorenson.me/issues"
+  },
+  "homepage": "https://github.com/KyleSorenson/kylesorenson.me#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
